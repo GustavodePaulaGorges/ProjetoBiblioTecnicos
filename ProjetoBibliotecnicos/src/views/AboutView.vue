@@ -1,6 +1,6 @@
 <template>
-<div class="AbtWrapper">
-    <div class="title"> 
+  <div class="AbtWrapper">
+    <div class="title">
       <h1>Bibliotecnicks, an app made by Bibliotecnicks group™</h1>
     </div>
     <br>
@@ -20,17 +20,19 @@
         </li>
       </ul>
     </h4>
-</div>
+  </div>
 </template>
 
-<style>
-.socialLi{
+<style scoped>
+.socialLi {
   margin-top: 1vh;
 }
-.AbtWrapper{
+
+.AbtWrapper {
   padding: 1vh;
 }
-.title{
+
+.title {
   padding: 1vh;
   box-shadow: 0.5px 0.5px 2.5px black;
   display: flex;

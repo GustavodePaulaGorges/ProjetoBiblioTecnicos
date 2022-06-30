@@ -7,6 +7,8 @@ import { RouterLink, RouterView } from "vue-router";
     <nav>
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/about">About</RouterLink>
+      <RouterLink to="/autores">Autores</RouterLink>
+
       <img src="@\components\icons\livroicon.png" class="LivroIco">
     </nav>
   </header>
@@ -27,7 +29,7 @@ import { RouterLink, RouterView } from "vue-router";
   max-height: 100vh;
   padding: 1vh;
   box-shadow: 1px 1px 5px black;
-  background-color: #181818;
+  background-color: white;
   
 }
 header {
